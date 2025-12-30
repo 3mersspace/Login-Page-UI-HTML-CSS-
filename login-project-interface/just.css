@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    background-color: #f2f2f2;
+    background-image: url(1dc908eb-37b4-4134-9ae2-60a689f3336c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loginmain {
+    background-color: rgba(255, 255, 255, 0.365);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid rgb(225, 223, 223);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px gray;
+}
+
+.emailbox,
+.Passbox {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid rgba(207, 207, 207, 0.574);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.222);
+}
+
+.emailtext,
+.passtext {
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+}
+
+.bigtext {
+    font-weight: 450;
+    font-size: 31px;
+}
+
+.forget {
+    color: rgb(8, 63, 241);
+    font-weight: 500;
+    background-color:  rgba(255, 255, 255, 0);
+    border: 0cap;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0%;
+    font-weight: 550;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.forget:hover {
+    color: rgb(7, 55, 213);
+}
+
+.loginbutton {
+    width: 100%;
+    padding: 0%;
+    height: 50px;
+    background-color: rgb(8, 63, 241);
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px gray;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.loginbutton:hover {
+    background-color: rgb(7, 55, 213);
+}
+
+.anotheracc {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+}
+
+.img1 {
+    width: 30px;
+    cursor: pointer;
+    transition: padding 0.4s;
+}
+
+.img1:hover {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px gray;
+}
